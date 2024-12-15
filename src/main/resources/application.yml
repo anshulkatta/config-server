@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///F:/config-server/properties
+          default-label: master
+
+server:
+  port: 8888
+
